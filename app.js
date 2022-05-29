@@ -73,7 +73,7 @@ qwerty.addEventListener('click',  (event) => {
 
 // check if letter is incorrect and lose heart
      if (!letterFound) {
-            const heart = document.querySelector(".tries img[src='images/liveHeart.png']")
+            const heart = document.querySelector(".tries img[src='images/heart-red.png']")
             heart.setAttribute('src', 'images/lostHeart.png')
             missed +=1;
         }
@@ -97,6 +97,7 @@ function checkWin() {
         title.textContent = "LOST!";
         overlay.style.display = 'flex';
         btnReset.textContent = 'Reset';
+        btnReset.style.color = '#fff';
     }
     reset();
 };

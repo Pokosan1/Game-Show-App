@@ -27,6 +27,16 @@ body {
   flex-direction: column;
   display: flex;
   height: 100vh;
+  background-color: rgb(255, 232, 236);
+}
+
+.wheel {
+  display: grid;
+  width: 15%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 li, ol, ul {
@@ -53,6 +63,7 @@ button {
   -webkit-transition: var(--transition);
   -o-transition: var(--transition);
   transition: var(--transition);
+  cursor: pointer;
 }
 
 .main-container {
@@ -83,6 +94,7 @@ button {
   width: 65px;
   padding: 20px 1px 0 1px;
   margin-right: 2px;
+  margin-bottom: 15px;
   color: transparent;
   background: var(--color-neutral-light);
   border-radius: 5px;
@@ -93,8 +105,9 @@ button {
 }
 
 .show {
-  color: #000;
-  background-color: #76CE82;
+  color: rgb(0, 0, 0);
+  background-color: #91c4ee;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Keyboard */
@@ -114,9 +127,12 @@ button {
 .btn__reset {
   padding: 8px;
   margin: 50px auto;
-  background: #FFFFFF;
-  border-radius: 5px;
+  /* background: #FFFFFF; */
+  border-radius: 10px;
   font-size: var(--font-size-medium);
+  border: 1px solid var(--color-win);
+  cursor: pointer;
+
 }
 
 /* Overlay */
