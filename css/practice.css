@@ -47,12 +47,11 @@ li, ol, ul {
   justify-content: center;
 }
 
-/* img {
+img {
     width: 20px;
     height: auto;
-    display: flex;
-    align-items: flex-start;
-} */
+
+}
 
 h2 {
   margin: 0;
