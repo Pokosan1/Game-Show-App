@@ -43,6 +43,7 @@ body {
 li, ol, ul {
   padding: 0;
   display: flex;
+  align-items: start;
   justify-content: center;
 }
 
@@ -88,6 +89,7 @@ button {
 .section {
   width: 100%;
   padding: 10px;
+
 }
 
 /* Title */
