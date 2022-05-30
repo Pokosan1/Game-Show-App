@@ -7,11 +7,19 @@ const btnClicked = document.getElementsByTagName('button');
 let missed = 0;
 
 const phrases = [
-    'BUDDHA IN YOUR MIRROR',
-    'WOMAN ON A MISSION',
-    'NEW HUMAN REVOLUTION',
-    'THE TEN WORLDS',
-    'HOPE IS A DECISION'
+    'HELLO',
+    'BUDDHA',
+    'THE LION KING',
+    'APPLE PIE',
+    'GOODNIGHT'
+
+    
+
+    // 'BUDDHA IN YOUR MIRROR',
+    // 'WOMAN ON A MISSION',
+    // 'NEW HUMAN REVOLUTION',
+    // 'THE TEN WORLDS',
+    // 'HOPE IS A DECISION'
 ];
 
 // listen for the start game button to be clicked
@@ -91,6 +99,8 @@ function checkWin() {
         title.textContent = "WINNER!";
         overlay.style.display = 'flex';
         btnReset.textContent = 'Reset';
+        btnReset.style.color = '#fff';
+
         
     } else if (missed >= 5) {
         overlay.classList.add('lose');
