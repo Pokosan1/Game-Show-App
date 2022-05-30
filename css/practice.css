@@ -45,6 +45,7 @@ li, ol, ul {
   display: flex;
   justify-content: center;
 }
+
 img {
     width: 20px;
     height: auto;
@@ -79,8 +80,8 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* height: 100%;
-  max-height: 900px; */
+  /* height: 90%; */
+  max-height: 600px;
   text-align: center;
 }
 
