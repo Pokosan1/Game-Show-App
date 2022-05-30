@@ -79,8 +79,8 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 100%;
-  max-height: 900px;
+  /* height: 100%;
+  max-height: 900px; */
   text-align: center;
 }
 
@@ -191,31 +191,31 @@ button {
 @media (min-width: 768px) {
 
     
-    button {
-        margin: 6px;
-        border: 1px solid transparent;
-        padding: .5rem 1rem;
-        color: var(--color-keys);
-        font-size: var(--font-size-medium);
-        background-color: var(--color-keys-light);
-        border-radius: 5px;
-        -webkit-transition: var(--transition);
-        -o-transition: var(--transition);
-        transition: var(--transition);
-        cursor: pointer; 
-      }
+button {
+    margin: 6px;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    color: var(--color-keys);
+    font-size: var(--font-size-medium);
+    background-color: var(--color-keys-light);
+    border-radius: 5px;
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+    cursor: pointer; 
+    }
 
-      .letter {
-        font-size: var(--font-size-medium);
-        height: 65px;
-        width: 65px;
-        padding: 20px 1px 0 1px;
-        margin-right: 2px;
-        margin-bottom: 15px;
-        color: transparent;
-        background: var(--color-neutral-light);
-        border-radius: 5px;
-      }
+    .letter {
+    font-size: var(--font-size-medium);
+    height: 65px;
+    width: 65px;
+    padding: 20px 1px 0 1px;
+    margin-right: 2px;
+    margin-bottom: 15px;
+    color: transparent;
+    background: var(--color-neutral-light);
+    border-radius: 5px;
+    }
 
 
 h2 {
@@ -229,6 +229,15 @@ h2 {
   li, ol, ul {
     padding: 0;
     display: inline-block;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    max-height: 900px;
+    text-align: center;
   }
 
 }
