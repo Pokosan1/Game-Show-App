@@ -98,12 +98,10 @@ button {
 
 .letter {
   font-size: 14px;
-  /* font-size: var(--font-size-medium); */
   height: 35px;
   width: 35px;
   padding: 10px 1px 0 1px;
   margin-right: 2px;
-  /* margin-bottom: 15px; */
   color: transparent;
   background: var(--color-neutral-light);
   border-radius: 5px;
@@ -138,7 +136,6 @@ button {
   margin: 50px auto;
   border-radius: 10px;
   font-size: var(--font-size-medium);
-  /* border: 1px solid var(--color-win); */
   cursor: pointer;
   border: 1px solid white;
 
@@ -230,11 +227,6 @@ button {
         font-size: var(--font-size-large);
         margin: 0;
     }
-    
-    /* li, ol, ul {
-        padding: 0;
-        display: inline-block;
-    } */
 
     .main-container {
         display: flex;
