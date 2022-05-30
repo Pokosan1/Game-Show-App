@@ -7,11 +7,11 @@ const btnClicked = document.getElementsByTagName('button');
 let missed = 0;
 
 const phrases = [
-    'HELLO',
-    'BUDDHA',
-    'THE LION KING',
-    'APPLE PIE',
-    'GOODNIGHT'
+    'HOPE IS A DECISION',
+    'BUDDHA IN YOUR MIRROR',
+    'THE WHITE BOOK',
+    'KITE RUNNER',
+    'NORWEGIAN WOOD'
 
     
 

@@ -50,7 +50,6 @@ li, ol, ul {
 img {
     width: 20px;
     height: auto;
-
 }
 
 h2 {
@@ -74,8 +73,6 @@ button {
     cursor: pointer; 
   }
 
-
-
 .main-container {
   display: flex;
   flex-direction: column;
@@ -83,12 +80,12 @@ button {
   /* height: 90%; */
   max-height: 600px;
   text-align: center;
+  margin: 10px;
 }
 
 .section {
-  width: 100%;
-  padding: 10px;
-
+    width: 100%;
+    padding: 10px;
 }
 
 /* Title */
@@ -219,11 +216,11 @@ button {
         border-radius: 5px;
         }
 
-        .show {
+    .show {
             color: rgb(0, 0, 0);
             background-color: #91c4ee;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
-          }
+    }
 
 
     h2 {
