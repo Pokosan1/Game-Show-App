@@ -48,8 +48,8 @@ li, ol, ul {
 img {
     width: 20px;
     height: auto;
-    display: flex;
-    align-items: flex-start;
+    /* display: flex;
+    align-items: flex-start; */
 }
 
 h2 {
