@@ -11,15 +11,11 @@ const phrases = [
     'BUDDHA IN YOUR MIRROR',
     'THE WHITE BOOK',
     'KITE RUNNER',
-    'NORWEGIAN WOOD'
-
-    
-
-    // 'BUDDHA IN YOUR MIRROR',
-    // 'WOMAN ON A MISSION',
-    // 'NEW HUMAN REVOLUTION',
-    // 'THE TEN WORLDS',
-    // 'HOPE IS A DECISION'
+    'NORWEGIAN WOOD',
+    'HARRY POTTER',
+    'MEMOIRS OF A GEISHA',
+    'TUESDAYS WITH MORRIE',
+    'DISCUSSIONS ON YOUTH'
 ];
 
 // listen for the start game button to be clicked
