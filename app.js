@@ -8,14 +8,12 @@ let missed = 0;
 
 const phrases = [
     'HOPE IS A DECISION',
-    'BUDDHA IN YOUR MIRROR',
+    'HUMAN REVOLUTION',
     'THE WHITE BOOK',
     'KITE RUNNER',
     'NORWEGIAN WOOD',
     'HARRY POTTER',
     'MEMOIRS OF A GEISHA',
-    'TUESDAYS WITH MORRIE',
-    'DISCUSSIONS ON YOUTH'
 ];
 
 // listen for the start game button to be clicked
