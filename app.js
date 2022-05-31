@@ -7,13 +7,13 @@ const btnClicked = document.getElementsByTagName('button');
 let missed = 0;
 
 const phrases = [
-    'HOPE IS A DECISION',
-    'HUMAN REVOLUTION',
+    'KIEHLS',
+    'APPLE PIE',
     'THE WHITE BOOK',
     'KITE RUNNER',
     'NORWEGIAN WOOD',
     'HARRY POTTER',
-    'MEMOIRS OF A GEISHA',
+    'ESTEE LAUDER',
 ];
 
 // listen for the start game button to be clicked
